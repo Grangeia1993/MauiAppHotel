@@ -1,0 +1,124 @@
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiApp1.MainPage"
+    Title="Hotel MAUI"
+    BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20">
+
+            <Grid
+                BackgroundColor="#142B45"
+                Padding="25"
+                RowDefinitions="Auto,Auto,Auto">
+
+                <Label
+                    Text="HOTEL MAUI"
+                    FontSize="28"
+                    FontAttributes="Bold"
+                    TextColor="#FFFFFF"
+                    HorizontalOptions="Center"/>
+
+                <Label
+                    Grid.Row="1"
+                    Text="Sua melhor experiência começa aqui!"
+                    FontSize="15"
+                    TextColor="#D8C49A"
+                    HorizontalOptions="Center"
+                    Margin="0,12,0,0"/>
+
+                <Label
+                    Grid.Row="2"
+                    Text="CONFORTO • QUALIDADE • HOSPITALIDADE"
+                    FontSize="11"
+                    TextColor="#FFFFFF"
+                    HorizontalOptions="Center"
+                    Margin="0,15,0,0"/>
+
+            </Grid>
+
+            <VerticalStackLayout Padding="20" Spacing="15">
+
+                <Label
+                    Text="Bem-vindo ao nosso hotel!"
+                    FontSize="23"
+                    FontAttributes="Bold"
+                    TextColor="#142B45"/>
+
+                <Label
+                    Text="Oferecemos conforto, tranquilidade e uma experiência especial para sua hospedagem."
+                    FontSize="16"
+                    TextColor="#444444"/>
+
+                <Frame
+                    BackgroundColor="#FFFFFF"
+                    BorderColor="#E5E5E5"
+                    CornerRadius="15"
+                    Padding="20"
+                    HasShadow="True">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Label
+                            Text="Nossas acomodações"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#142B45"/>
+
+                        <Label
+                            Text="Quartos preparados para proporcionar descanso, comodidade e bem-estar durante sua estadia."
+                            FontSize="15"
+                            TextColor="#555555"/>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <Frame
+                    BackgroundColor="#FFFFFF"
+                    BorderColor="#E5E5E5"
+                    CornerRadius="15"
+                    Padding="20"
+                    HasShadow="True">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Label
+                            Text="Faça sua hospedagem"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#142B45"/>
+
+                        <Label
+                            Text="Consulte as opções e solicite sua hospedagem de maneira rápida e prática."
+                            FontSize="15"
+                            TextColor="#555555"/>
+
+                        <Button
+                            Text="CONHECER O HOTEL"
+                            BackgroundColor="#B89555"
+                            TextColor="#FFFFFF"
+                            FontAttributes="Bold"
+                            CornerRadius="10"
+                            Clicked="OnConhecerHotelClicked"/>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <Label
+                    Text="HOTEL MAUI - 2026"
+                    FontSize="12"
+                    TextColor="#888888"
+                    HorizontalOptions="Center"
+                    Margin="0,10,0,15"/>
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

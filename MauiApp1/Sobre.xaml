@@ -1,0 +1,69 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiApp1.Views.Sobre"
+    Title="Sobre">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="20"
+            BackgroundColor="#F5F5F5">
+
+            <Label
+                Text="HOTEL MAUI"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#142B45"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="Sobre o aplicativo"
+                FontSize="23"
+                FontAttributes="Bold"
+                TextColor="#B89555"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="Nosso aplicativo foi desenvolvido para facilitar a contratação de hospedagens, oferecendo praticidade e simplicidade aos usuários."
+                FontSize="16"
+                TextColor="#333333"
+                HorizontalTextAlignment="Center"/>
+
+            <BoxView
+                HeightRequest="2"
+                Color="#B89555"/>
+
+            <Label
+                Text="INFORMAÇÕES DO PROJETO"
+                FontSize="19"
+                FontAttributes="Bold"
+                TextColor="#142B45"/>
+
+            <Label
+                Text="Desenvolvedor: SEU NOME"
+                FontSize="16"
+                TextColor="#333333"/>
+
+            <Label
+                Text="Ano: 2026"
+                FontSize="16"
+                TextColor="#333333"/>
+
+            <Label
+                Text="Tecnologia: C# e .NET MAUI"
+                FontSize="16"
+                TextColor="#333333"/>
+
+            <Label
+                Text="Projeto acadêmico"
+                FontSize="14"
+                TextColor="#777777"
+                HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
